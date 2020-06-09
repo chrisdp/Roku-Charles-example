@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<component name="MainScene" extends="Scene">
+  <script type="text/brightscript" uri="MainScene.brs" />
+
+  <interface>
+    <field id="appExit" type="bool" alwaysnotify="true" value="false"/>
+  </interface>
+
+  <children>
+    <MarkupList id="list" itemComponentName="ListItem" itemSize="[1900, 250]" itemSpacing="[0, 20]" drawFocusFeedback="false" translation="[20, 20]" wrapDividerBitmapUri="" />
+    <Video id="video" visible="false" />
+  </children>
+</component>

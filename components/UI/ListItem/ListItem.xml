@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="ListItem" extends="Group">
+    <script type="text/brightscript" uri="ListItem.brs" />
+
+    <interface>
+        <field id="itemContent" type="node" onChange="onItemContentChange" />
+        <field id = "focusPercent" type = "float" onChange = "onFocusPercentChange" />
+        <field id="maxLabelWidth" alias="titleLabel.width, descriptionLabel.width" />
+    </interface>
+
+    <children>
+        <Rectangle
+          id = "itemCursor"
+          translation = "[ 0, 235 ]"
+          width = "1880"
+          height = "6"
+          color = "0xFFFFFF"
+          opacity = "0.0"
+          />
+        <Poster id="imagePoster" loadDisplayMode="scaleToFit" height="235" width="235" />
+        <LayoutGroup id="labelGroup" itemSpacings="[20, 0]">
+            <Label id="titleLabel" font="font:LargeBoldSystemFont" />
+            <Label id="descriptionLabel" wrap="true" maxLines="3" />
+        </LayoutGroup>
+    </children>
+</component>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<component name="GetSubReddit" extends="Task">
+  <script type="text/brightscript" uri="GetSubReddit.brs" />
+
+  <interface>
+    <field id="subReddit" type="string"/>
+    <field id="content" type="Node"/>
+  </interface>
+</component>

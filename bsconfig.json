@@ -1,0 +1,10 @@
+{
+    "host": "${promptForHost}",
+    "password": "${promptForPassword}",
+    "files": [
+        "manifest",
+        "source/**/*.*",
+        "components/**/*.*",
+        "images/**/*.*"
+    ]
+}
