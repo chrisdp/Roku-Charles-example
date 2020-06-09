@@ -38,7 +38,7 @@ At this time if you want to change the port Charles runs on you can do that here
 ![CharlesProxySetting](/READMEImages/CharlesProxySetting.png)
 
 ## Roku Setup
-Not that Charles is setup and ready to receive requests from your Roku we need to get your channel sending the requests to it. We can do this by making sure we always run our main requests though a function like this:
+Now that Charles is setup and ready to receive requests from your Roku we need to get your channel sending the requests to it. We can do this by making sure we always run our main requests though a function like this:
 
 ```
 function urlProxy(url as string) as string
@@ -82,5 +82,3 @@ Assuming everything is set up correctly you should now be able to restart the ch
 *TIP:* If you are seeing a lot of local traffic you can turn off the `macOS Proxy` by going to Proxy > Proxy Settings > macOS and un-checking the following and restarting Charles:
 - `Enable macOS proxy`
 - `Enable macOS proxy on launch`
-
-At this point the Charles part of the set up should be complete. Now we need to tell the Roku channel to send all it's requests to your computer and Charles.
