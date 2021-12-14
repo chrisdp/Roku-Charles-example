@@ -8,6 +8,7 @@ This is a simple app showing how you can view the network traffic in your Roku c
       - [Settings](#settings)
   - [Roku Setup](#roku-setup)
   - [Conclusion](#conclusion)
+  - [Fiddler Alternative](#fiddler-alternative)
   - [TODO](#todo)
 
 ## Requirements
@@ -84,6 +85,11 @@ Assuming everything is set up correctly you should now be able to restart the ch
 *TIP:* If you are seeing a lot of local traffic you can turn off the `macOS Proxy` by going to Proxy > Proxy Settings > macOS and un-checking the following and restarting Charles:
 - `Enable macOS proxy`
 - `Enable macOS proxy on launch`
+
+## Fiddler Alternative
+
+Fiddler is another proxy that can be used in Roku development. Here's a link to an example on how to use Fiddler thanks to [
+jyoungl6](https://github.com/jyoungl6). https://github.com/jyoungl6/Roku-Fiddler-Example
 
 ## TODO
 - add an example prelaunch task showing how you could pull the prox ip from an `.env` file
